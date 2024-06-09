@@ -36,8 +36,12 @@ The developed churn prediction system provides valuable insights into customer b
 
 # Challenges
 Imbalanced Data: Addressing imbalanced data distribution in the dataset required careful consideration during model training and evaluation.
+
 Feature Selection: Selecting relevant features for predicting churn and engineering new features posed challenges in understanding the underlying factors influencing customer churn.
-#Future Work
+
+# Future Work
 Model Optimization: Explore techniques for further improving the performance of churn prediction models, such as hyperparameter tuning and ensemble methods.
+
 Customer Segmentation: Conduct more granular analysis by segmenting customers based on demographics, usage patterns, and other factors to personalize retention strategies.
+
 Real-time Monitoring: Implement a system for real-time monitoring of customer churn using streaming data processing techniques.

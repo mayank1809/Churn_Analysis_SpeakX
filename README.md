@@ -8,16 +8,23 @@ The dataset used for this analysis is the Telco Customer Churn dataset, obtained
 
 # Approach
 Data Preprocessing: The dataset was preprocessed to handle missing values, encode categorical variables, and prepare it for analysis.
+
 Exploratory Data Analysis (EDA): EDA was performed to understand customer behavior and factors influencing churn. Various visualizations such as histograms, count plots, and correlation matrices were used to explore the data.
+
 Feature Engineering: Relevant features were created to aid in predicting churn. A new feature called 'SeniorCitizen_Partner' was derived from existing features.
+
 Model Building: Logistic regression and random forest classifiers were trained on the dataset to predict churn. The models were evaluated using metrics like accuracy, precision, recall, and F1-score.
+
 User Interface: A Streamlit-based user interface was developed to allow users to interact with the churn prediction models by entering customer details.
+
 Model Consensus: A mechanism was implemented to resolve discrepancies between the predictions of logistic regression and random forest models, ensuring robust predictions.
-Findings
-EDA Insights:
+
 Distribution of churn: The dataset contains a relatively balanced distribution of churned and non-churned customers.
+
 Numerical features vs. churn: Tenure, monthly charges, and total charges show varying distributions between churned and non-churned customers.
+
 Payment method distribution: Churn varies across different payment methods, with electronic check having the highest churn rate.
+
 # Model Evaluation:
 Logistic regression achieved an accuracy of X%, precision of X%, recall of X%, and F1-score of X%.
 Random forest achieved an accuracy of X%, precision of X%, recall of X%, and F1-score of X%.

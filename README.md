@@ -25,10 +25,15 @@ Initial Insights:
 Visualizations: 
 
     •	Distribution of Numerical Features: Histograms show the distribution of numerical features. 
+    
     •	Churn Distribution: Count plot showing the distribution of churned vs. non-churned customers. 
+    
     •	Numerical Features vs. Churn: KDE plots illustrating the relationship between numerical features and churn. 
+    
     •	Correlation Matrix: Heatmap displaying correlations between features.
+    
     •	Gender Distribution: Bar plot showing churn distribution by gender. 
+    
     •	Payment Method Distribution: Bar plot showing churn distribution by payment method.
 
 

@@ -10,15 +10,20 @@ The dataset used for this analysis is the Telco Customer Churn dataset, obtained
 Data Preprocessing: The dataset was preprocessed to handle missing values, encode categorical variables, and prepare it for analysis.
 
 Exploratory Data Analysis (EDA): 
+
 Data Overview: 
+
     •	The dataset consists of customer demographics, account information, and service usage details. 
 
     •	Key features include tenure, MonthlyCharges, TotalCharges, gender, SeniorCitizen, Partner, Dependents, PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, and PaymentMethod. 
 
 Initial Insights: 
+
     •	Churn rate is around 26.5%.
+    
     •	Features like tenure, MonthlyCharges, and TotalCharges show different distributions for churned and non-churned customers. 
 Visualizations: 
+
     •	Distribution of Numerical Features: Histograms show the distribution of numerical features. 
     •	Churn Distribution: Count plot showing the distribution of churned vs. non-churned customers. 
     •	Numerical Features vs. Churn: KDE plots illustrating the relationship between numerical features and churn. 
